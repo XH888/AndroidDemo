@@ -1,0 +1,28 @@
+package com.example.fragmentdemo.ui;
+
+import com.example.fragmentdemo.R;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+public class ImageText extends LinearLayout {
+	private Context context;
+	private ImageView imageView;
+	private TextView textView;
+	private final static int DEFAULT_IMAGE_WIDTH = 64;
+	private final static int DEFAULT_IMAGE_HEIGHT = 64;
+	public ImageText(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		this.context=context;
+		LayoutInflater inflater=LayoutInflater.from(context);
+		View parentView = inflater.inflate(R.layout.image_text_layout, this, true);
+		textView=(TextView) findViewById(R.id.text_iamge_text);
+		imageView=(ImageView) findViewById(R.id.image_iamge_text);
+	}
+
+}

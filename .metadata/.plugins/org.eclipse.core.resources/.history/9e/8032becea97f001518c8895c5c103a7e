@@ -1,0 +1,13 @@
+package com.example.fragmentdemo.ui;
+
+import android.app.Activity;
+import android.content.Context;
+import android.widget.RelativeLayout;
+
+public class HeadControlPanel extends RelativeLayout {
+
+	public HeadControlPanel(Context context) {
+		super(context);
+	}
+
+}

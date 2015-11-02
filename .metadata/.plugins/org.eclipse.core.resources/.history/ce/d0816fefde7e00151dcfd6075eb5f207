@@ -1,0 +1,7 @@
+package com.example.fragmentdemo.ui;
+
+import android.widget.LinearLayout;
+
+public class ImageText extends LinearLayout {
+
+}

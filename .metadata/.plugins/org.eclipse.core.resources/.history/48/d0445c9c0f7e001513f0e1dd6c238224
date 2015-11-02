@@ -1,0 +1,17 @@
+package com.example.control;
+
+
+import com.example.excisedemo.R;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Gallery;
+
+public class UsingGallery extends Activity {
+	private Gallery callery;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.aty_use_gallery);
+		
+	}
+}
