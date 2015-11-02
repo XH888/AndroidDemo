@@ -4,16 +4,16 @@
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
-		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="Comments"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog">
 		<item value="577" key="DIALOG_WIDTH"/>
 		<item value="-12" key="DIALOG_Y_ORIGIN"/>
-		<item value="86" key="DIALOG_X_ORIGIN"/>
 		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="86" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
@@ -25,8 +25,8 @@
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="373" key="DIALOG_WIDTH"/>
 		<item value="64" key="DIALOG_Y_ORIGIN"/>
-		<item value="596" key="DIALOG_HEIGHT"/>
 		<item value="332" key="DIALOG_X_ORIGIN"/>
+		<item value="596" key="DIALOG_HEIGHT"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="quick_assist_proposal_size">
@@ -35,8 +35,8 @@
 		<item value="0" key="index"/>
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="Comments"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -60,8 +60,8 @@
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="211" key="DIALOG_Y_ORIGIN"/>
-			<item value="513" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="513" key="DIALOG_X_ORIGIN"/>
 			<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -72,14 +72,14 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="516" key="DIALOG_WIDTH"/>
 		<item value="23" key="DIALOG_Y_ORIGIN"/>
-		<item value="766" key="DIALOG_HEIGHT"/>
 		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="766" key="DIALOG_HEIGHT"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
-		<item value="true" key="create_unimplemented"/>
 		<item value="false" key="create_main"/>
+		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
@@ -88,8 +88,8 @@
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="516" key="DIALOG_WIDTH"/>
 		<item value="35" key="DIALOG_Y_ORIGIN"/>
-		<item value="748" key="DIALOG_HEIGHT"/>
 		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="748" key="DIALOG_HEIGHT"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
