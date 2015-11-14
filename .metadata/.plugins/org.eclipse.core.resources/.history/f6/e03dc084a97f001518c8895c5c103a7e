@@ -1,7 +1,0 @@
-package com.example.fragmentdemo.ui;
-
-import android.app.Activity;
-
-public class HeadControlPanel extends Activity {
-
-}

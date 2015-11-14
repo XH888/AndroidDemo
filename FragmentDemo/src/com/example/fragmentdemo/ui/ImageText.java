@@ -61,7 +61,7 @@ public class ImageText extends LinearLayout {
 			textView.setBackgroundColor(CHECKED_COLOR);
 		}
 		int checkDrawableId=-1;
-		switch (itemID) {
+		switch (itemID){
 		case Constant.BTN_FLAG_CONTACTS:
 			checkDrawableId=R.drawable.contacts_selected;
 			break;

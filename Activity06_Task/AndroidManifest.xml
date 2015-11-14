@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.activity06_task"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.demo.activity06_task.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 需要其他程序隐式访问启动的时候，定义 intent-filter 节点 和 名称 ，action代表组件的唯一标识-->
+        <activity android:name="com.demo.activity05_task.BActivity"
+            android:launchMode="singleTop">
+            <intent-filter >
+                <action android:name="com.demo.activity05_task.BActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.demo.activity05_task.CActivity">
+            <intent-filter >
+                <action android:name="com.demo.activity05_task.CActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".DActivity"/>
+        <activity android:name=".BActivity"/>
+        <activity android:name=".CActivity"/>
+    </application>
+
+</manifest>

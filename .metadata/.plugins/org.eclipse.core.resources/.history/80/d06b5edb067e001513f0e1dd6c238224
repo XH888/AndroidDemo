@@ -1,7 +1,0 @@
-package com.example.control;
-
-import android.app.Activity;
-
-public class UsingNotification extends Activity {
-
-}

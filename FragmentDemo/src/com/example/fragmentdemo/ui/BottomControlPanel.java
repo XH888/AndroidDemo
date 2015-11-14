@@ -105,7 +105,7 @@ public class BottomControlPanel extends RelativeLayout implements OnClickListene
 		}
 	}
 	
-	public void defaultBtnChecked(int itemID){
+	public void defaultBtnChecked(){
 		if(msgBtn!=null){
 			msgBtn.setChecked(Constant.BTN_FLAG_MESSAGE);
 		}
