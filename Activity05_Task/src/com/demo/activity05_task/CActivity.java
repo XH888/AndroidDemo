@@ -20,4 +20,9 @@ public class CActivity extends Activity {
 		Intent intent=new Intent(getApplicationContext(),DActivity.class);
 		startActivity(intent);
 	}
+	@Override
+	protected void onNewIntent(Intent intent) {
+		setIntent(intent);
+		super.onNewIntent(intent);
+	}
 }

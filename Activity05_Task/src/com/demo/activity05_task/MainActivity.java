@@ -2,8 +2,8 @@ package com.demo.activity05_task;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
-import android.view.Menu;
 import android.view.View;
 
 public class MainActivity extends Activity {
@@ -18,7 +18,13 @@ public class MainActivity extends Activity {
 		TaskUtil.printTask(getApplicationContext());
 	}
 	public void toB(View v){
+		
 		Intent intent=new Intent(getApplicationContext(),BActivity.class);
+	
+		ComponentName cm=new ComponentName(getApplicationContext(),BActivity.class);
+		//intent.setComponent(cm);
+		intent.setClass(getApplicationContext(), BActivity.class);
+		
 		startActivity(intent);
 	}
 }

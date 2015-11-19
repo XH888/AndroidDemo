@@ -13,8 +13,10 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="BottomPanelCallback" key="selection"/>
+		<item value="feedlist" key="selection"/>
 		<list key="findhistory">
+			<item value="feedlist"/>
+			<item value="words"/>
 			<item value="BottomPanelCallback"/>
 			<item value="initBottomPanel"/>
 			<item value="this"/>
