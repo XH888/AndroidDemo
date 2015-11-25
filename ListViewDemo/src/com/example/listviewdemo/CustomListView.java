@@ -31,7 +31,6 @@ public class CustomListView extends Activity {
 			
 			@Override
 			public View getView(int position, View convertView, ViewGroup parent) {
-			/*
 				System.out.println("--------------------- -------------");
 				TextView tv=null;
 				if(convertView==null){
@@ -43,7 +42,6 @@ public class CustomListView extends Activity {
 				tv.setTextSize(50);
 				
 				return tv;
-			*/
 			}
 			
 			@Override

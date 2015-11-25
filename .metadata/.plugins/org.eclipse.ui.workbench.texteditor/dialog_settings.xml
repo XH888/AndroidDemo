@@ -13,8 +13,9 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="feedlist" key="selection"/>
+		<item value="FeedTask" key="selection"/>
 		<list key="findhistory">
+			<item value="FeedTask"/>
 			<item value="feedlist"/>
 			<item value="words"/>
 			<item value="BottomPanelCallback"/>

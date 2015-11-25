@@ -1,6 +1,5 @@
 package com.example.utils;
 
-import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.List;
 

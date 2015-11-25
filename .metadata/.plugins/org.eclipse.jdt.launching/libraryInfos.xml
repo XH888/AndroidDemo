@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-<libraryInfo home="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre" version="1.6.0_13">
+<libraryInfo home="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013" version="1.6.0_13">
 <bootpath>
 <entry path="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar"/>
 <entry path="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar"/>
@@ -18,7 +18,7 @@
 <entry path="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013" version="1.6.0_13">
+<libraryInfo home="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre" version="1.6.0_13">
 <bootpath>
 <entry path="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar"/>
 <entry path="D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar"/>

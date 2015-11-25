@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/showDialogId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="Dialog show" />
+
+    <Button
+        android:id="@+id/showColorDialogId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showDialogId"
+        android:onClick="showDialogColor"
+        android:text="Dialog Color列表" />
+
+    <Button
+        android:id="@+id/showFontSizeDialogId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showColorDialogId"
+        android:onClick="showDialogFontSize"
+        android:text="Dialog FontSize列表" />
+    
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="测试字体大小"
+        android:layout_below="@id/showFontSizeDialogId"/>
+
+</RelativeLayout>

@@ -20,17 +20,17 @@ public class MainActivity extends Activity {
 	
 	public void showSecondActivty(View view){
 		Intent i=new Intent(getApplicationContext(),B_Activty.class);
-		//Ö±½ÓÍ¨¹ıIntent´«Öµ
-		i.putExtra("msg", "µÚÒ»¸öÒ³ÃæÏòµÚ¶ş¸ö´«Öµ");
+		//ç›´æ¥é€šè¿‡Intentä¼ å€¼
+		i.putExtra("msg", "ç¬¬ä¸€ä¸ªé¡µé¢å‘ç¬¬äºŒä¸ªä¼ å€¼");
 		i.putExtra("mame", "dison");
 		
-		//Í¨¹ıIntent Bundle´«Öµ
+		//é€šè¿‡Intent Bundleä¼ å€¼
 		Bundle bundle=new Bundle();
-		bundle.putString("sex", "ÄĞ");
+		bundle.putString("sex", "ç”·");
 		bundle.putInt("age",20);
 		
-		//Í¨¹ıÈ«¾Ö±äÁ¿´«Öµ£»²»½¨Òé
-		//info.put("info", "¾²Ì¬³ÉÔ±´«Öµ");
+		//é€šè¿‡å…¨å±€å˜é‡ä¼ å€¼ï¼›ä¸å»ºè®®
+		//info.put("info", "é™æ€æˆå‘˜ä¼ å€¼");
 		
 		i.putExtras(bundle);
 		startActivity(i);

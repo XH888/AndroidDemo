@@ -22,11 +22,11 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		lv=(ListView) findViewById(R.id.lv);
 		List<DataItem> list=new ArrayList<DataItem>();
-		list.add(new DataItem("zhangsan1","ÄÐ",16));
-		list.add(new DataItem("zhangsan2","Å®",14));
-		list.add(new DataItem("zhangsan3","ÄÐ",14));
-		list.add(new DataItem("zhangsan4","Å®",11));
-		list.add(new DataItem("zhangsan5","ÄÐ",15));
+		list.add(new DataItem("zhangsan1","ç”·",16));
+		list.add(new DataItem("zhangsan2","å¥³",14));
+		list.add(new DataItem("zhangsan3","ç”·",14));
+		list.add(new DataItem("zhangsan4","å¥³",11));
+		list.add(new DataItem("zhangsan5","ç”·",15));
 		adapter=new ArrayAdapter<DataItem>(this, android.R.layout.simple_list_item_1,list);
 		//ListAdapter adapter=new ArrayAdapter<String>(this,R.layout.listview_item,list);
 		lv.setAdapter(adapter);

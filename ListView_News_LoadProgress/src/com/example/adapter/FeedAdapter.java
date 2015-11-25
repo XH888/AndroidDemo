@@ -89,4 +89,8 @@ public class FeedAdapter extends BaseAdapter {
 			}
 		}).executeOnExecutor(executor,imgUrl);
 	}
+	
+	
+	
+	
 }

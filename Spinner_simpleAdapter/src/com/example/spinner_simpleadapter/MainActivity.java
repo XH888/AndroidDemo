@@ -18,7 +18,7 @@ import android.widget.SpinnerAdapter;
 public class MainActivity extends Activity {
 	private Spinner sp;
 	private List<Map<String,Object>> datas;
-	private Adapter adapter;
+	private SpinnerAdapter adapter;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 				new String[]{"name","age","sex"},		//对应的传入的对象数组
 				new int[]{R.id.nameId,R.id.ageId,R.id.sexId});	//传给对象View的对应ID
 		
-		sp.setAdapter((SpinnerAdapter) adapter);		//设置spinner的列表对象
+		sp.setAdapter( adapter);		//设置spinner的列表对象
 	}
 	
 	

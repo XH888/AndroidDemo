@@ -23,4 +23,9 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1447806465783_20" label="窗口工作集" name="Aggregate for window 1447806465783"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1447839747160_21" label="窗口工作集" name="Aggregate for window 1447839747160"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1447904633208_22" label="窗口工作集" name="Aggregate for window 1447904633208"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1447978970594_23" label="窗口工作集" name="Aggregate for window 1447978970584"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448067296760_24" label="窗口工作集" name="Aggregate for window 1448067296748"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448243887751_25" label="窗口工作集" name="Aggregate for window 1448243887751"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448325696074_26" label="窗口工作集" name="Aggregate for window 1448325696061"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448417288267_27" label="窗口工作集" name="Aggregate for window 1448417288267"/>
 </workingSetManager>

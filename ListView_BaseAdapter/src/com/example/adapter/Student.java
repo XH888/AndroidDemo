@@ -86,8 +86,7 @@ public class Student extends BaseAdapter {
 		TextView nameView=(TextView) itemView.findViewById(R.id.nameView);
 		TextView sexView=(TextView) itemView.findViewById(R.id.sexView);
 		
-		
-		return null;
+		return itemView;
 	}
 
 }
