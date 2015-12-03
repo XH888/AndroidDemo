@@ -60,8 +60,7 @@ public class MainActivity extends Activity {
 	}
 
 	@Override
-	public void onCreateContextMenu(ContextMenu menu, View v,
-			ContextMenuInfo menuInfo) {
+	public void onCreateContextMenu(ContextMenu menu, View v,ContextMenuInfo menuInfo) {
 		getMenuInflater().inflate(R.menu.item_edit, menu);	//注册item layout
 		AdapterContextMenuInfo amenuInfo=(AdapterContextMenuInfo) menuInfo;	//取得item layout的组件对象
 		currentPosition = amenuInfo.position;

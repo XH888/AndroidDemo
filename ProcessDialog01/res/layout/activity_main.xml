@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownLoad"
+        android:onClick="showImg"
+        />
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@id/btnID"
+        />
+
+</RelativeLayout>

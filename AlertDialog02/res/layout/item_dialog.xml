@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/nametvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名：" />
+
+    <EditText
+        android:id="@+id/nameETId"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_toRightOf="@id/nametvId"
+        android:layout_alignBaseline="@id/nametvId"
+        android:hint="点击输入姓名"/>
+    
+    
+    <TextView
+        android:id="@+id/teltvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameETId"
+        android:layout_toLeftOf="@+id/nameETId"
+        android:text="电话：" />
+    
+    <EditText
+        android:id="@+id/telETId"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/teltvId"
+        android:layout_alignBaseline="@id/teltvId"
+        android:inputType="textPhonetic"
+        android:hint="点击输入电话"/>
+
+</RelativeLayout>

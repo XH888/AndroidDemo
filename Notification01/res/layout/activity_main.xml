@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/btn1Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送普通通知" 
+        android:onClick="notify01"/>
+    
+    <Button
+        android:id="@+id/btn2Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送进度通知" 
+        android:onClick="notify02"
+        android:layout_below="@id/btn1Id"/>
+    
+    <Button
+        android:id="@+id/btn3Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送大视图通知" 
+        android:onClick="notify03"
+        android:layout_below="@id/btn2Id"/>
+    <Button
+        android:id="@+id/btn4Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送大图片通知" 
+        android:onClick="notify04"
+        android:layout_below="@id/btn3Id"/>
+</RelativeLayout>
