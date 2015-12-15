@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/selectId"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="选择内部存储文件"/>
+
+</menu>

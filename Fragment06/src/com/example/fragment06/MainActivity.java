@@ -34,4 +34,5 @@ public class MainActivity extends Activity {
 	public void backFragment(View view) {
 		onBackPressed();
 	}
+	
 }

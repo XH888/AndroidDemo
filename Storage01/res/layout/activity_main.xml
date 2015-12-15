@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#ccc"
+        android:text="@string/hello_world" />
+    <Button
+        android:id="@+id/btn1Id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="write"
+        android:text="write 共享参数" />
+    <Button
+        android:id="@+id/btn2Id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="read"
+        android:text="read 共享参数" />
+</LinearLayout>

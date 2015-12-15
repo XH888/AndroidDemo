@@ -1,7 +1,6 @@
 package com.example.fragment;
 
 import com.example.fragment06.R;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.graphics.Color;
@@ -23,17 +22,19 @@ public class ContentFragment extends Fragment {
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-		Log.i("info", " ContentFragment -> onCreateView ");
+		Log.i("info", " ContentFragment -> onCreateView msg:"+msg);
 		View view=inflater.inflate(R.layout.fragment_item,null);
 		TextView tv=(TextView) view.findViewById(R.id.tvId);
-		tv.setBackgroundColor(Color.rgb((int)(Math.random()*256),(int)(Math.random()*256), (int)(Math.random()*256)));
+		int c=(int)(Math.random()*256);
+		tv.setBackgroundColor(Color.rgb(c,(int)(Math.random()*256), (int)(Math.random()*256)));
 		tv.setText(String.valueOf(msg));
 		return view;
 	}
 	
 	@Override
 	public void onDestroyView() {
-		Log.i("info", "ContentFragment -> onDestroyView");
+		Log.i("info", "ContentFragment -> onDestroyView msg:"+msg);
 		super.onDestroyView();
 	}
+	
 }	
