@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.contentprovider02"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+   
+    	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.contentprovider02.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 
+        	注册contentProvider 
+        	android:authorities：标识当前组件的唯一标识  
+        	android:permission:配置访问权限标识
+        	android:exported="true":可以被外部应用访问
+        -->
+        <provider android:name="com.example.contentprovider.UserContentProvider" 
+            android:authorities="com.example.contentprovider02"
+            android:permission="com.example.contentprovider02.user.WRITE_READ"
+            android:exported="true"/>
+    </application>
+
+</manifest>
