@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="更新联系人"/>
+    <item
+        android:id="@+id/action_del"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="删除联系人"/>
+</menu>

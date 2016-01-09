@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="251" key="DIALOG_WIDTH"/>
-		<item value="320" key="DIALOG_Y_ORIGIN"/>
-		<item value="1171" key="DIALOG_X_ORIGIN"/>
+		<item value="199" key="DIALOG_Y_ORIGIN"/>
+		<item value="1146" key="DIALOG_X_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,18 +13,19 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="lv" key="selection"/>
+		<item value="dispatchMessage" key="selection"/>
 		<list key="findhistory">
-			<item value="lv"/>
-			<item value="+Thread.currentThread().getStackTrace()[1].getMethodName()"/>
-			<item value="getStackTrace()[0]"/>
-			<item value="getInputStream"/>
-			<item value="resolveDialogTheme"/>
-			<item value="FeedTask"/>
-			<item value="feedlist"/>
-			<item value="words"/>
+			<item value="Enum&lt;E&gt;"/>
+			<item value="dispatchMessage"/>
+			<item value="disp"/>
+			<item value="Handler"/>
+			<item value="sendMessageDelayed"/>
+			<item value="enqueueMessage"/>
+			<item value="target"/>
+			<item value="handleMessage"/>
 		</list>
 		<list key="replacehistory">
+			<item value="EditView"/>
 			<item value=""/>
 			<item value="getStackTrace()[1]"/>
 		</list>

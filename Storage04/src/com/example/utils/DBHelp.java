@@ -15,7 +15,10 @@ public class DBHelp extends SQLiteOpenHelper {
 		super(context, "gp06.db", null, 1);	
 	}
 
-	//初始化数据库；
+	/**
+	 * 初始化数据库；对于多条数据的增删改查需要执行db.beginTransaction()事物开启；
+	 * db.setTransactionSuccessful()：成功提交事物
+	 */
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		db.execSQL("create table t_fav(_id integer primary key,id,title,info,web_content,fav_data,model_type)");

@@ -13,13 +13,12 @@ import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends Activity {
-	Uri uri = Calls.CONTENT_URI;
+	Uri uri = Calls.CONTENT_URI;	//通话记录
 	String[] culums = new String[] { 
 			CallLog.Calls._ID, 
 			CallLog.Calls.NUMBER,
 			CallLog.Calls.DATE, 
 			CallLog.Calls.TYPE };
-	DateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

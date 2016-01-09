@@ -1,5 +1,5 @@
 package com.example.util;
-
+ 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -10,13 +10,13 @@ import android.os.Environment;
 
 public class FileUtils {
 	// 保存图片的缓存路径
-	public static final String CACHE_DIR = Environment.getDataDirectory() + "/imgcache/";
+	public static final String CACHE_DIR = Environment.getDataDirectory() + "/Storage03/imgcache/";
 
 	public static final int FORMAT_JPEG=1;
 	public static final int FORMAT_PNG=2;
 	
 	public static boolean isMounted() {
-		// 返回存储是否挂载
+		//返回扩展卡是否挂载
 		return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
 	}
 
@@ -24,7 +24,7 @@ public class FileUtils {
 	public static void saveImage(String url, byte[] bytes) throws IOException {
 		if(!isMounted()) return ;
 		File dir=new File(CACHE_DIR);
-		if(!dir.isDirectory()) dir.mkdirs();	//判断文件路径
+		if(!dir.exists()) dir.mkdirs();	//判断文件路径
 		FileOutputStream fos=new FileOutputStream(new File(dir,getFileName(url)));
 		fos.write(bytes);
 		fos.close();
@@ -36,7 +36,6 @@ public class FileUtils {
 		File dir=new File(CACHE_DIR);
 		if(!dir.isDirectory()) dir.mkdirs();	//判断文件路径
 		FileOutputStream fos=new FileOutputStream(new File(dir,getFileName(url)));
-		
 		bitmap.compress(format==FORMAT_JPEG?CompressFormat.JPEG:CompressFormat.PNG, 100, fos);		//将输入流转换成BitMap流
 	}
 	
