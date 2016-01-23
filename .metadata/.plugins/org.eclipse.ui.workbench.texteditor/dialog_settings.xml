@@ -13,16 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="getInputStream" key="selection"/>
+		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value="RelativeLayout"/>
+			<item value="hScrollView"/>
+			<item value="setCurrentItem"/>
+			<item value="mBase"/>
 			<item value="getInputStream"/>
 			<item value="forNameUEE"/>
 			<item value="getHeaderField"/>
 			<item value="con.setDoOutput(true);"/>
-			<item value="AUtils"/>
-			<item value="Enum&lt;E&gt;"/>
-			<item value="dispatchMessage"/>
-			<item value="disp"/>
 		</list>
 		<list key="replacehistory">
 			<item value="EditView"/>
