@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 				sendBroadcast(i);
 			}
 		});
-		//ֹͣ�㲥�ͷ��͹㲥;
+		//ֹͣ�㲥�ͷ��͹㲥;
 		btnStartBCR.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -41,10 +41,5 @@ public class MainActivity extends Activity {
 				unregisterReceiver(mybc);
 			}
 		});
-		
-		
-		
 	}
-
-
 }
