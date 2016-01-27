@@ -1,5 +1,4 @@
 com.android.ide.eclipse.adt.fixLegacyEditors=1
-com.android.ide.eclipse.adt.sdk=D\:\\Program Files\\adt-bundle-windows-x86-20131030\\sdk
+com.android.ide.eclipse.adt.sdk=/Volumes/Media/\u5E38\u7528\u8F6F\u4EF6/adt-bundle-mac-x86_64-20131030/sdk
 com.android.ide.eclipse.adt.xmlEditor=true
-design.palette.flyout.width=302
 eclipse.preferences.version=1
