@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.broadcastreceiver05"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="com.example.broadreciver04.timer.PERMISSION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.broadcastreceiver05.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 注册广播接收器，用来接受04中的广播 -->
+        <receiver android:name="com.example.broadcastreceiver05.MyReceiver05" android:permission="com.example.broadreciver04.timer.PERMISSION">
+            <intent-filter>
+                <action android:name="com.example.broadreciver04.timer"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
