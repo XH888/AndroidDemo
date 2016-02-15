@@ -1,0 +1,1 @@
+package com.example.service06_intentservice;public class Config {	public static final String ACTION_IMG = "com.example.broadcast.img";		public static final String EXT_IMG = "img";	public static final String EXT_PATH = "path";}
