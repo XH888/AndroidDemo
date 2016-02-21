@@ -1,5 +1,7 @@
 package com.example.aidl.server;
 
+import java.util.HashMap;
+
 import com.example.aidl.CalculateInterface;
 
 import android.app.Service;
@@ -9,7 +11,7 @@ import android.os.RemoteException;
 import android.util.Log;
 
 public class CalculateServer extends Service{
-
+	
 	@Override
 	public IBinder onBind(Intent intent) {
 		Log.i("info", "-- onBind --");
