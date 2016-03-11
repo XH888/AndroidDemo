@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.example.service02_mediaplayer.R.layout"/>
-<fullyQualifiedTypeName name="android.app.Notification.Builder"/>
-<fullyQualifiedTypeName name="com.example.service02_mediaplayer.R"/>
-<fullyQualifiedTypeName name="com.example.service02_mediaplayer.R.id"/>
-<fullyQualifiedTypeName name="android.app.PendingIntent"/>
-<fullyQualifiedTypeName name="com.example.service02_mediaplayer.Config"/>
-<fullyQualifiedTypeName name="com.example.service03.TimerService"/>
-<fullyQualifiedTypeName name="android.os.Binder"/>
-<fullyQualifiedTypeName name="com.example.service03.TimerService.TimerBunder"/>
-<fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="java.util.TimerTask"/>
 <fullyQualifiedTypeName name="android.app.NotificationManager"/>
 <fullyQualifiedTypeName name="android.support.v4.app.NotificationCompat"/>
@@ -33,8 +23,6 @@
 <fullyQualifiedTypeName name="android.os.Message"/>
 <fullyQualifiedTypeName name="android.os.Bundle"/>
 <fullyQualifiedTypeName name="android.os.Messenger"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="com.example.service06_intentservice.ImageDownloadService"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="org.apache.http.HttpConnection"/>
@@ -48,16 +36,28 @@
 <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="android.content.BroadcastReceiver"/>
-<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
 <fullyQualifiedTypeName name="android.view.ViewGroup"/>
 <fullyQualifiedTypeName name="com.example.service06_intentservice.MainActivity.myBroadCast"/>
 <fullyQualifiedTypeName name="com.example.service06_intentservice.MainActivity.MyBroadcast"/>
 <fullyQualifiedTypeName name="android.content.IntentFilter"/>
 <fullyQualifiedTypeName name="com.example.service06_intentservice.Config"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.drawable"/>
 <fullyQualifiedTypeName name="com.example.service06_intentservice.R"/>
 <fullyQualifiedTypeName name="com.example.service06_intentservice.R.id"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.example.eventtouch.EventUtils"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.Drawable"/>
+<fullyQualifiedTypeName name="android.graphics.Paint"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.drawable"/>
+<fullyQualifiedTypeName name="android.view.MotionEvent"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Align"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
 </qualifiedTypeNameHistroy>
